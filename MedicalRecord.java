@@ -17,4 +17,20 @@ public class MedicalRecord {
         this.treatment = treatment;
         System.out.println("Medical record updated.");
     }
+
+    public int getRecordID() {
+        return recordID;
+    }
+
+    public String getDiagnosis() {
+        return diagnosis;
+    }
+
+    public String getTreatment() {
+        return treatment;
+    }
+
+    public String getCheckupDate() {
+        return checkupDate;
+    }
 }
