@@ -1,13 +1,7 @@
-public class Veterinarian implements PetCareService {
-
-    private String name;
-
-    public Veterinarian(String name) {
-        this.name = name;
-    }
+public class Veterinarian extends Person implements PetCareService {
 
     public void treatPet(Animal animal) {
-        System.out.println(name + " is treating the pet.");
+        System.out.println(getName() + " is treating the pet.");
     }
 
     public void updateRecord(MedicalRecord record) {
