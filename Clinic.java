@@ -2,7 +2,6 @@ public class Clinic {
     public String clinicName;
     public String Location;
 
-
     public void scheduleAppointment(Appointment appt){
 
     }
@@ -97,5 +96,6 @@ class Veterinarian extends Person implements PetCareService{
     }
 
 }
-
+    
 }
+
